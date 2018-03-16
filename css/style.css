@@ -19,6 +19,10 @@ a {
 	font-size: 18px;
 	text-decoration: none;
 	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+	border: white;
 }
 h2 {
 	font-family: Raleway, Monospace;
@@ -48,4 +52,33 @@ main {
 }
 img {
 	margin: 40px 8px 0 8px;
+}
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright {
+	font-family: Raleway, Monospace;
+	float: left;
+}
+.message {
+	font-family: Raleway, Monospace;
+	float: right;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
