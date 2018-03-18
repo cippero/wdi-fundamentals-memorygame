@@ -11,7 +11,7 @@ h1 {
 	font-size: 45px;
 	margin: 0;
 }
-a {
+a, button {
 	font-family: Raleway, Monospace;
 	color: #F15B31;
 	letter-spacing: 1px;
@@ -21,8 +21,16 @@ a {
 	margin: 0 20px;
 	border-bottom: 2px solid transparent;
 }
+#reset{
+	border: none;
+}
+button:hover {
+	color: #00A6B3;
+	cursor: pointer;
+}
 a:hover {
-	border: white;
+	/*border: white;*/
+	color: white;
 }
 h2 {
 	font-family: Raleway, Monospace;
